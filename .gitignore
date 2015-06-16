@@ -37,3 +37,4 @@ dist
 public/__build__/**
 .webpack.json
 
+.idea
