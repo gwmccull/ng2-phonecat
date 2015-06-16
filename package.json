@@ -1,7 +1,7 @@
 {
-  "name": "angular2-webpack-starter",
+  "name": "ng2-phonecat",
   "version": "0.0.0",
-  "description": "An Angular 2 Webpack Starter kit featuring Angular 2, Router, TypeScript, and Webpack by AngularClass",
+  "description": "Updated Phonecat tutorial for Angular 2 and Material Designs",
   "main": "",
   "scripts": {
     "build": "webpack",
