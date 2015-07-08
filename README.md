@@ -1,3 +1,9 @@
+# Angular 2 Phonecat Tutorial
+
+This repo will contain a Angular 2 Phonecat tutorial.  The text below is from the Webpack repo, which I cloned to get a start.  I'll it delete later.
+
+
+
 <p align="center">
   <img src="https://res.cloudinary.com/angularclass/image/upload/v1431925418/webpackAndangular2_dwhus9.png" alt="Webpack and Angular 2" width="500" height="320"/>
 </p>
