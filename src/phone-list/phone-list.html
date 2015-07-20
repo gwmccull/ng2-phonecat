@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <div class="row">
+
+        <!--Sidebar content-->
+        <div class="col-md-2">
+
+            Search: <input [(ng-model)]="query">
+            Sort by:
+            <select [(ng-model)]="orderProp">
+                <option value="name">Alphabetical</option>
+                <option value="age">Newest</option>
+            </select>
+
+        </div>
+
+        <!--Body content-->
+        <div class="col-md-10">
+            <ul class="phones">
+                <li *ng-for="#phone of phones" class="thumbnail phone-listing">
+                    <a href="#/phones/{{phone.id}}" class="thumb"><img [src]="phone.imageUrl"></a>
+                    <a href="#/phones/{{phone.id}}">{{phone.name}}</a>
+                    <p>{{phone.snippet}}</p>
+                </li>
+            </ul>
+            <button (click)="init()">Load</button>
+
+        </div>
+    </div>
+</div>
