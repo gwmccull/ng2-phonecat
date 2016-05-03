@@ -6,11 +6,7 @@ if (typeof __decorate !== "function") __decorate = function (decorators, target,
         case 4: return decorators.reduceRight(function(o, d) { return (d && d(target, key, o)) || o; }, desc);
     }
 };
-if (typeof __metadata !== "function") __metadata = function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
 var angular2_1 = require('angular2/angular2');
-var angularfire_1 = require('lib/firebase/angularfire');
 var PhonesService = (function () {
     function PhonesService(sync) {
         this.phones = sync.asArray();
@@ -20,8 +16,7 @@ var PhonesService = (function () {
         return this.phones.list;
     };
     PhonesService = __decorate([
-        angular2_1.Component({}), 
-        __metadata('design:paramtypes', [angularfire_1.AngularFire])
+        angular2_1.Component({})
     ], PhonesService);
     return PhonesService;
 })();

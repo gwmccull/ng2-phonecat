@@ -6,9 +6,6 @@ if (typeof __decorate !== "function") __decorate = function (decorators, target,
         case 4: return decorators.reduceRight(function(o, d) { return (d && d(target, key, o)) || o; }, desc);
     }
 };
-if (typeof __metadata !== "function") __metadata = function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
 /// <reference path="../typings/angular2/angular2.d.ts" />
 var angular2_1 = require('angular2/angular2');
 var router_1 = require('angular2/router');
@@ -36,8 +33,7 @@ var App = (function () {
         router_1.RouteConfig([
             //{ path: '/',  redirectTo: '/customers' },
             { path: '/', as: 'phones', component: PhoneList_component_1.PhoneListComponent }
-        ]), 
-        __metadata('design:paramtypes', [(typeof Router !== 'undefined' && Router) || Object])
+        ])
     ], App);
     return App;
 })();

@@ -1,11 +1,11 @@
 System.config({
     transpiler: 'traceur',
     traceurOptions: {
-      annotations: true,
-      types: true,
-      memberVariables: true
+        annotations: true,
+        types: true,
+        memberVariables: true
     },
     map: {
-      traceur: 'js/libs/traceur'
+        traceur: 'js/libs/traceur'
     }
 });
